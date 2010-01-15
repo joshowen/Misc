@@ -1,3 +1,6 @@
+/*
+This page will show all environmental variables/connection strings/drives/AppSettings of the server/application.  Useful for debugging sometimes.
+*/
 protected void Page_Load(object sender, EventArgs e)
        {
            IDictionary variables = Environment.GetEnvironmentVariables();
